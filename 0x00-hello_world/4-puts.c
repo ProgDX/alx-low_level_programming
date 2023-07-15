@@ -1,15 +1,17 @@
 #include<stdio.h>
+#include<string.h>
+
 /**
  *
  *Use of puts in C
  *main - Entry point
  */
 int main (){
-  char str[50];
+  char str[51];
 
-  strcpy(str1,"Programming is like building a multilingual puzzle");
+  strcpy(str,"Programming is like building a multilingual puzzle");
 
-  puts(str1);
+  puts(str);
 
   return (0);
 }
