@@ -19,7 +19,7 @@ n = rand() - RAND_MAX / 2;
 x = n % 10;
 if (n > 5)
 {
-printf("Last digit of %d is %d %s\n", n, x, "and is greater than 5");
+printf("Last digit of %d is %d %s\n", n, x, "and is 0");
 }
 else if ((n < 6) && (n != 0))
 {
