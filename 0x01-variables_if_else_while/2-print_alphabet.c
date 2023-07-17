@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 /**
 * main - print the string in the put function
@@ -9,7 +10,7 @@
 */
 int main()
 {
-for(int x = 'A'; x <= 'Z'; x++) // jumps from 'A'(65) to 'B'(66) to ... in order.
+for(int x = 'A'; x <= 'Z'; x++) /* jumps from 'A'(65) to 'B'(66) to ... in order.*/
 {
 char small = tolower(x);
 putchar(small);
