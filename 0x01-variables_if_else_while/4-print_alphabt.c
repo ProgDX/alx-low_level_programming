@@ -2,9 +2,11 @@
 #include <ctype.h>
 
 /**
-*main - Entry
-*Description Nothing to descripe
-*Return Always 0
+* main - print the string in the put function
+*
+* Description: using the main function
+* this program printsProgramming is like building a multilingual puzzle
+* Return: 0
 */
 int main(void)
 {
