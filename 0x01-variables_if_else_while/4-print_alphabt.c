@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <ctype.h>
 
-/**                                                                  
-* main - print the string in the put function                        *                                                                    
-* Description: using the main function                               
-* this program printsProgramming is like building a multilingual puzz\
-le                                                                   * Return: 0                                                          
+/**
+*main - Entry
+*
+*Return Always 0
 */
 int main(void)
 {
