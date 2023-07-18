@@ -8,12 +8,14 @@
 * this program printsProgramming is like building a multilingual puzzle
 * Return: 0
 */
-int main()
+int main(void)
 {
-for(int x = 'A'; x <= 'Z'; x++) /* jumps from 'A'(65) to 'B'(66) to ... in order.*/
+int lowerCase = 'a';
+while (lowerCase <= 'z')
 {
-char small = tolower(x);
-putchar(small);
+putchar (lowerCase);
+lowerCase += 1;
 }
-return 0;
+putchar ('\n');
+return (0);
 }
