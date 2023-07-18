@@ -10,10 +10,10 @@
 */
 int main(void)
 {
-int a;
-while (a < 10)
+int num;
+while (num < 10)
 {
-printf("%d\n", a);
+printf("%d\n", num);
 }
 return (0);
 }
