@@ -8,11 +8,13 @@
 * this program printsProgramming is like building a multilingual puzzle
 * Return: 0
 */
-char main();
+int main(void);
 {
-char put = "_putchar";
+int letter;
 {
-printf("%s\n", put);
+printf("_putchar");
+putchar(letter);
 }
+putchar('\n');
 return (0);
 }
