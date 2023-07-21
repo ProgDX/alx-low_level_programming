@@ -1,6 +1,8 @@
 #include "main.h"
 /**
 *print_alphabet - make the alphabet
+*Description: print x10
+*made facddd
 *Return void
 */
 void print_alphabet_x10(void)
