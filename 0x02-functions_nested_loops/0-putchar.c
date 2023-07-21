@@ -8,7 +8,7 @@
 * this program printsProgramming is like building a multilingual puzzle
 * Return: 0
 */
-int main(void);
+int main(void)
 {
 _putchar("_");
 _putchar("p");
